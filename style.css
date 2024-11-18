@@ -14,3 +14,8 @@ section {
 .img-skill {
   width: 100%;
 }
+
+h2 {
+  color: #898989;
+  font-family: monospace;
+}
