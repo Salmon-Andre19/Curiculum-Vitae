@@ -15,7 +15,34 @@ section {
   width: 100%;
 }
 
+/* tiap section h2 */
 h2 {
   color: #898989;
-  font-family: monospace;
+  font-family: "Kanit", sans-serif;
+  font-style: italic;
+}
+
+.nav-link,
+.contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-brand,
+.display-4 {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 350;
+  color: #898989;
+}
+
+#skill h3 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+}
+
+.lead {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  color: #898989;
+  font-size: 2em;
 }
