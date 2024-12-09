@@ -1,25 +1,13 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #b9e0eb;
-}
-
-#project {
-  background-color: #b9e0eb;
-}
-
-section {
-  padding-top: 4rem;
-}
-
-.img-skill {
+html {
   width: 100%;
 }
 
-/* tiap section h2 */
-h2 {
+/* Navbar */
+.navbar-brand,
+.display-4 {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 350;
   color: #898989;
-  font-family: "Kanit", sans-serif;
-  font-style: italic;
 }
 
 .nav-link,
@@ -28,21 +16,46 @@ h2 {
   font-weight: 500;
 }
 
-.navbar-brand,
-.display-4 {
-  font-family: "Sour Gummy", sans-serif;
-  font-weight: 350;
+/* Section */
+section {
+  padding-top: 4rem;
+}
+h2 {
   color: #898989;
+  font-family: "Kanit", sans-serif;
+  font-style: italic;
 }
 
-#skill h3 {
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
+/* Jumbotron */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #b9e0eb;
 }
-
 .lead {
   font-family: "Shadows Into Light", cursive;
   font-weight: 700;
   color: #898989;
   font-size: 2em;
+}
+
+/* Project */
+.project {
+  background-color: #b9e0eb;
+}
+
+/* Skill */
+#skill h3 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+}
+
+.img-skill {
+  width: 100%;
+}
+
+/* Media */
+@media (max-width: 992px) {
+  .navbar {
+    text-align: center;
+  }
 }
