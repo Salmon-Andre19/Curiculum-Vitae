@@ -7,18 +7,32 @@ html {
 .display-4 {
   font-family: "Sour Gummy", sans-serif;
   font-weight: 350;
+  color: salmon;
+}
+
+.display-4 {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 350;
   color: #898989;
 }
 
-.nav-link,
-.contact {
+.nav-link {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
+  margin-left: 3em;
+}
+
+/* About */
+.about .p-kiri,
+.p-kanan,
+.card-text {
+  text-align: justify;
 }
 
 /* Section */
 section {
   padding-top: 4rem;
+  margin-top: -20px;
 }
 h2 {
   color: #898989;
@@ -28,7 +42,7 @@ h2 {
 
 /* Jumbotron */
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 5rem;
   background-color: #b9e0eb;
 }
 .lead {
@@ -44,6 +58,9 @@ h2 {
 }
 
 /* Skill */
+section#skill::after {
+  box-sizing: border-box;
+}
 #skill h3 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
@@ -53,8 +70,13 @@ h2 {
   width: 100%;
 }
 
+.contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+}
+
 /* Media */
-@media (max-width: 992px) {
+@media (min--width: 992px) {
   .navbar {
     text-align: center;
   }
